@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 exec(open('openfermionpsi4/_version.py').read())
 
 # Readme file as long_description:
-long_description = open('README.rst').read()
+long_description = ''#open('README.rst').read()
 
 # Read in requirements.txt
 requirements = open('requirements.txt').readlines()
